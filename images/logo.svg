@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="209" height="54" viewBox="0 0 209 54">
+  <defs>
+    <style>
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ff3400;
+        stroke: #ff3400;
+        mix-blend-mode: lighten;
+      }
+
+      .cls-3 {
+        font-size: 32.498px;
+        fill: #fff;
+        font-family: Inter;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path id="Polygon_1_copy_2-2" data-name="Polygon 1 copy 2" class="cls-2" d="M27.033,29.7L56.64,39.2,64.847,14.02Z"/>
+  <text id="CloudHost" class="cls-3" transform="translate(75.466 35.437) scale(0.775)">CloudHost</text>
+</svg>
