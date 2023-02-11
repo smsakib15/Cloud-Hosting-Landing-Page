@@ -47,7 +47,8 @@ h2 {
 
 h3 {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 p {
@@ -650,12 +651,12 @@ a {
 
 .block--skewed-right {
     padding-bottom: calc(var(--padding-vertical) + 4rem);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
 }
   
 .block--skewed-left {
     padding-bottom: calc(var(--padding-vertical) + 4rem);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 
 .container {
@@ -730,7 +731,7 @@ a {
 /* Hero */
 
 .hero {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 
 .hero__tagline {
@@ -886,6 +887,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+    .footer {
+        padding-top: 10rem;
+    }
+    
     .footer__sections {
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     }
@@ -915,4 +920,10 @@ a {
     .footer__heading {
         font-size: 1.6rem;
     }
+}
+
+/* Sign-up Callout */
+
+.callout-signup {
+    transform: translateY(5rem);
 }
