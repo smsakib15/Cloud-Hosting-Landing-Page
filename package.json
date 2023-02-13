@@ -1,0 +1,23 @@
+{
+  "name": "cloud-hosting-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smsakib15/Cloud-Hosting-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smsakib15/Cloud-Hosting-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/smsakib15/Cloud-Hosting-Landing-Page#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
